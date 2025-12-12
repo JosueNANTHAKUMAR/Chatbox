@@ -7,12 +7,12 @@ export async function POST(req: Request) {
     try {
         const { messages } = await req.json();
 
-        const result = await generateText({
+        const result = await streamText({
             model: google('gemini-2.5-flash'),
             messages,
         });
 
-        return new Response(result.text);
+        return result.toTextStreamResponse();
     } catch (error) {
         console.error(error);
         return new Response(JSON.stringify({ error: 'Internal Server Error' }), { status: 500 });
