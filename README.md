@@ -1,6 +1,6 @@
 # 🏥 Capital Santé - Assistant IA
 
-Bienvenue sur le dépôt de **Capital Santé**, un assistant conversationnel intelligent conçu pour simplifier l'accès aux informations de santé. Ce projet utilise la puissance de l'IA **Google Gemini** pour fournir des réponses précises et contextuelles.
+Bienvenue sur le dépôt de **Capital Santé**, un assistant conversationnel intelligent. Ce projet utilise la puissance de l'IA **Google Gemini** pour fournir des réponses précises et contextuelles.
 
 ## 🚀 Technologies Utilisées
 
@@ -26,7 +26,7 @@ Suivez ces étapes pour lancer le projet sur votre machine :
 1.  **Cloner le dépôt** :
     ```bash
     git clone <votre-repo-url>
-    cd Chatbox
+    cd Capital-Sante-Demo
     ```
 
 2.  **Installer les dépendances** :
