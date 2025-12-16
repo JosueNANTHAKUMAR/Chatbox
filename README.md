@@ -1,4 +1,4 @@
-# 🤖 Josué Nanthakumar - Personal AI Assistant
+# 🚀 SaaS-Ready AI Assistant - Next.js & Gemini
 
 ![Josué AI Preview](./public/chat-preview.png)
 
