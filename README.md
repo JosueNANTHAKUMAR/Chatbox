@@ -1,62 +1,73 @@
-# 🏥 Capital Santé - Assistant IA
+# 🤖 Josué Nanthakumar - Personal AI Assistant
 
-Bienvenue sur le dépôt de **Capital Santé**, un assistant conversationnel intelligent. Ce projet utilise la puissance de l'IA **Google Gemini** pour fournir des réponses précises et contextuelles.
+![Josué AI Preview](public/chat-preview.png)
 
-## 🚀 Technologies Utilisées
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC?style=for-the-badge&logo=tailwind-css)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-2.5%20Flash-8E75B2?style=for-the-badge&logo=google)
 
-Ce projet a été construit avec une stack moderne et performante :
+**Josué AI** is a personal conversational assistant designed to showcase modern web development skills and AI integration. Built with **Next.js 14** and **Google Gemini**, it serves as a portfolio piece demonstrating expert-level UI/UX and real-time AI capabilities.
 
-*   **⚡ Next.js 14** : Le framework React pour le web.
-*   **📘 TypeScript** : Pour un code robuste et typé.
-*   **🎨 Tailwind CSS** : Pour une interface utilisateur élégante et responsive.
-*   **🤖 Vercel AI SDK** : Pour l'intégration fluide de l'IA.
-*   **🧠 Google Gemini** : Le modèle de langage (LLM) utilisé (`gemini-2.5-flash`).
+## ✨ Key Features
 
-## 🛠️ Prérequis
+- **🧠 Advanced AI Integration**: Powered by Google Gemini 2.5 Flash for high-accuracy responses.
+- **⚡ Real-time Streaming**: Instant response generation with character-by-character streaming.
+- **💾 Chat History**: Automatically saves your conversations locally so you never lose context.
+- **🎨 Premium UI/UX**:
+    - **Glassmorphism Design**: Modern, translucent aesthetics with blur effects.
+    - **Dark Mode Native**: Optimized for visual comfort.
+    - **Responsive Layout**: Seamless experience across Desktop, Tablet, and Mobile.
+- **🛑 Control**: Stop generation at any time.
+- **📋 Productivity**: One-click copy for messages and code.
 
-Avant de commencer, assurez-vous d'avoir :
+## 🛠️ Tech Stack
 
-*   [Node.js](https://nodejs.org/) (version 18 ou supérieure)
-*   Une clé API Google AI Studio (pour Gemini)
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) + `clsx` + `tailwind-merge`
+- **AI SDK**: [Vercel AI SDK](https://sdk.vercel.ai/docs)
+- **Icons**: [Lucide React](https://lucide.dev/)
 
-## ⚙️ Installation
+## 🚀 Getting Started
 
-Suivez ces étapes pour lancer le projet sur votre machine :
+### Prerequisites
 
-1.  **Cloner le dépôt** :
+- Node.js 18+
+- Google AI Studio API Key
+
+### Installation
+
+1.  **Clone the repository**
     ```bash
-    git clone <votre-repo-url>
-    cd Capital-Sante-Demo
+    git clone https://github.com/JosueNANTHAKUMAR/Personal-Chatbox.git
+    cd Personal-Chatbox
     ```
 
-2.  **Installer les dépendances** :
+2.  **Install dependencies**
     ```bash
     npm install
     ```
 
-3.  **Configurer les variables d'environnement** :
-    Créez un fichier `.env.local` à la racine du projet et ajoutez votre clé API :
-    ```bash
-    GOOGLE_GENERATIVE_AI_API_KEY=votre_clé_api_ici
+3.  **Configure Environment**
+    Create a `.env.local` file:
+    ```env
+    GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
     ```
 
-## 🏃‍♂️ Lancer le projet
+4.  **Run Development Server**
+    ```bash
+    npm run dev
+    ```
 
-Une fois l'installation terminée, lancez le serveur de développement :
+    Open [http://localhost:3000](http://localhost:3000) to view the application.
 
-```bash
-npm run dev
-```
+## 🔮 Future Roadmap
 
-Ouvrez ensuite [http://localhost:3000](http://localhost:3000) dans votre navigateur pour discuter avec l'assistant ! 🎉
-
-## ✨ Fonctionnalités
-
-*   **💬 Chat en temps réel** : Discussion fluide avec l'IA.
-*   **⚡ Streaming** : Les réponses s'affichent mot par mot pour plus de rapidité.
-*   **🎨 UI Moderne** : Interface sombre (Dark Mode) inspirée des meilleurs outils actuels.
-*   **📱 Responsive** : Fonctionne sur ordinateur et mobile.
+- [ ] **RAG Integration**: Connect to personal documents/resume.
+- [ ] **Voice Mode**: Speech-to-text and Text-to-speech.
+- [ ] **Code Execution**: Run Python/JS snippets directly in the chat.
 
 ---
 
-*Projet réalisé par Josué Nanthakumar dans le cadre de la mission pour Capital Santé.* 🎓
+*Designed & Developed by [Josué Nanthakumar](https://github.com/JosueNANTHAKUMAR).*

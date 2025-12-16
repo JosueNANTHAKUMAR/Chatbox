@@ -1,5 +1,5 @@
 import { google } from '@ai-sdk/google';
-import { streamText, generateText } from 'ai';
+import { streamText } from 'ai';
 
 export const maxDuration = 30;
 
