@@ -1,6 +1,6 @@
 # 🤖 Josué Nanthakumar - Personal AI Assistant
 
-![Josué AI Preview](public/chat-preview.png)
+![Josué AI Preview](./public/chat-preview.png)
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
